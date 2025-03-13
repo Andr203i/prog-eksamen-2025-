@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dine Aktier</title>
+  <link rel="stylesheet" href="startside.css">
+
+</head>
+
+<body>
+  <div class="sidebar">
+    <h2>Din portefølje</h2>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Kontoer</a></li>
+      <li><a href="#">Portfolio</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Dine Aktier</h1>
+      <input type="text" placeholder="Søg...">
+      <button>Handels Historik</button>
+      <button>Registrer Handel</button>
+    </header>
+
+    <section class="portfolio-value">
+      <h2>Samlet Værdi af portefølje</h2>
+      <canvas id="portfolioChart"></canvas>
+    </section>
+
+    <section class="portfolio-breakdown">
+      <h2>Fordeling af aktier</h2>
+      <canvas id="stockPieChart"></canvas>
+    </section>
+
+    <section class="stocks">
+      <h2>Aktier i portefølje</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Navn</th>
+            <th>Volumen</th>
+            <th>24h Change</th>
+            <th>Pris</th>
+            <th>Værdi</th>
+          </tr>
+        </thead>
+
+        </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+
+</html>
