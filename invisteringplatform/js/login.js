@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (email && password) { 
           localStorage.setItem("isLoggedIn", "true");
           console.log(" Bruger logget ind:", email);
-          window.location.href = "../Brugerportal/startside.html"; // Korrekt sti
+          window.location.href = "../Brugerportal/HTML/startside.html";
       } else {
           alert("Udfyld både email og adgangskode!");
       }
