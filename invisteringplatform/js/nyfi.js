@@ -3,7 +3,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   alert('Form submitted successfully!');
 });
 
-
+console.log("Heil")
 
 
 
